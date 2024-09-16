@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="l-div">
+        <img src="/asset/Logo.png" alt="logo" class="logo" />
+        <h1>For Individuals</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div class="r-div">
+        <form action="">
+          <div class="column">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                placeholder="Enter your last name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <select
+                name="gender"
+                id="gender"
+                required
+                placeholder="Select a gender"
+              >
+                <option value="" disabled selected>select your gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="dob">Date of Birth</label>
+              <input id="dob" type="date" />
+            </div>
+            <div class="form-group">
+              <label for="weight">Weight (KG)</label>
+              <input type="text" id="weight" placeholder="Enter weight" />
+            </div>
+            <div class="form-group">
+              <label for="height">Height (CM)</label>
+              <input
+                type="text"
+                id="height"
+                placeholder="Enter height here..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="activity">Activity Level</label>
+              <select name="activity" id="activity">
+                <option value="" disabled selected>select here</option>
+                <option value="Amateur">Amateur</option>
+                <option value="Professional">Professional</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="password" id="password">Password</label>
+              <input type="password" required placeholder="enter password" />
+            </div>
+          </div>
+          <input type="submit" value="Register" class="register-btn" />
+        </form>
+        <p class="terms">
+          By clicking Register, you agree to our <span>Terms of Use</span> and
+          our
+          <span>Privacy Policy</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
